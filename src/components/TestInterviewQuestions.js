@@ -20,7 +20,6 @@ export default function TestInterviewQuestions(props) {
 
   const [filteredQuestions, setFilteredQuestions] = useState(dataTestHTML);
   const [selectedOption, setSelectedOption] = useState(Array(filteredQuestions.length).fill(null));
-  const [isCorrect, setIsCorrect] = useState(false)
   const [resultShown, setResultShown] = useState(false)
 
 
@@ -84,20 +83,8 @@ export default function TestInterviewQuestions(props) {
       }
       
       
-      function handleCorrect(event, index) {
-        const updatedOptions = [...selectedOption];
-        const selectedAnswer = event.target.value;
-        updatedOptions[index] = selectedAnswer;
-        setSelectedOption(updatedOptions);
-      
-        const isCorrectAnswer = selectedAnswer === filteredQuestions[index].answer;
-        setIsCorrect(isCorrectAnswer);
-      }
-      
   
-    function handleResultToggler() {
-        props.setButton(prev => !prev)
-    }
+   
 
   
   const listQuestions = filteredQuestions.map((question, index) => (
