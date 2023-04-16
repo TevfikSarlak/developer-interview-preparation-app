@@ -16,7 +16,6 @@ function App() {
   const [typeOfQuestions, setTypeOfQuestions] = useState('Classical')
   const [countOfQuestions, setCountOfQuestions] = useState(3)
   const [button, setButton] = useState(false)
-  const [showResult, setShowResult] = useState(false)
   const [finishButton, setFinishButton] = useState(false)
 
  useEffect(()=> {
