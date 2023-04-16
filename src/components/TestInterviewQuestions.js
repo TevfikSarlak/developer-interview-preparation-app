@@ -76,8 +76,6 @@ export default function TestInterviewQuestions(props) {
           console.warn('Warning: filteredQuestions and selectedOption have different lengths.');
           // You can also throw an error or show an error message to the user, depending on your specific use case.
         }
-        console.log(checkArray)
-        console.log(option)
     
         return `You have got ${correctAnswer} correct questions`
       }
