@@ -62,7 +62,7 @@ function App() {
   function currentTest() {
     let currentPage
 
-    if(typeOfQuestions === "Classical") {
+    if(typeOfQuestions === "Open-ended") {
       currentPage = <InterviewQuestions button={button}
                                         setButton={setButton}
                                         topicOfQuestions={topicOfQuestions}
