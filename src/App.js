@@ -17,14 +17,14 @@ import { Footer } from './components/Footer';
 function App() {
 
   const [topicOfQuestions, setTopicOfQuestions] = useState('HTML')
-  const [typeOfQuestions, setTypeOfQuestions] = useState('Classical')
+  const [typeOfQuestions, setTypeOfQuestions] = useState('Open-ended')
   const [countOfQuestions, setCountOfQuestions] = useState(3)
   const [button, setButton] = useState(false)
   const [finishButton, setFinishButton] = useState(false)
 
  useEffect(()=> {
   setTopicOfQuestions("HTML")
-  setTypeOfQuestions("Classical")
+  setTypeOfQuestions("Open-ended")
   setCountOfQuestions(3)
   setButton(false)
   setFinishButton(false)
