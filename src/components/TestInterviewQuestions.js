@@ -138,7 +138,7 @@ export default function TestInterviewQuestions(props) {
             {listQuestions}
             </ul>
         )}
-        {!resultShown && (<ResultButton text="&#9989; Check Your Answers &#10060;" onClick={()=> setResultShown(prev => !prev)} />)}
+        {(!resultShown && props.button) && (<ResultButton text="&#9989; Check Your Answers &#10060;" onClick={()=> setResultShown(prev => !prev)} />)}
         {resultShown && (<ResultDisplay />)}
         
         </InterviewContext.Provider>

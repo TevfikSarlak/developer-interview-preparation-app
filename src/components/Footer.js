@@ -23,7 +23,7 @@ export const Footer = () => {
               <a href="https://github.com/TevfikSarlak" target="_blank">
                 <img
                   src="../images/github.png"
-                  className="hover:bg-violet-800 rounded-full"
+                  className="hover:bg-violet-800  rounded-full"
                 />
               </a>
               <a
@@ -44,7 +44,7 @@ export const Footer = () => {
               <a href="https://medium.com/@tevfiksarlak" target="_blank">
                 <img
                   src="../images/medium.png"
-                  className="hover:bg-green-700 rounded-full"
+                  className="hover:bg-green-700 bg-darkBlue rounded-full"
                 />
               </a>
             </div>

@@ -53,6 +53,12 @@ function App() {
     
   }
 
+  useEffect(() => {
+    // Scroll to the top of the page
+    window.scrollTo(0, 0);
+  }, [finishButton]);
+
+
   function currentTest() {
     let currentPage
 
