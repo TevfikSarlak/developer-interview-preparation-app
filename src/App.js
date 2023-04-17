@@ -4,6 +4,10 @@ import TestInterviewQuestions from './components/TestInterviewQuestions';
 import Navbar from './components/Navbar';
 import React, { useEffect, useState } from 'react';
 import Button from './components/Button';
+import { Footer } from './components/Footer';
+
+
+
 
 
 
@@ -92,7 +96,8 @@ function App() {
          {currentTest()}
          
          {(!finishButton && button) && (<Button text="&#129308; Finish Test &#129307;" onClick={()=>setFinishButton(prev=>!prev)} />)}
-        
+         
+        <Footer />
     </div>
   );
 }
