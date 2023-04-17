@@ -44,12 +44,12 @@ export default function Navbar(props) {
                     </label>
                     <div>
                         <select 
-                            defaultValue="Classical" 
+                            defaultValue="Open-ended" 
                             value={props.typeOfQuestions} 
                             onChange={props.typeHandler}
                             className="rounded-sm p-2 text-slate-700 hover:bg-gray-100 focus:outline-none "
                         >
-                            <option value="Classical">Classical</option>
+                            <option value="Open-ended">Open-ended</option>
                             <option value="Multiple">Multiple Choice</option>
                         </select>
                     </div>
