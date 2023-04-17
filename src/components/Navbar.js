@@ -64,6 +64,7 @@ export default function Navbar(props) {
                         <input 
                             type="number" 
                             max="20"
+                            min="1"
                             value={props.countOfQuestions} 
                             onChange={props.countHandler}
                             className="w-16 h-6 rounded-sm text-slate-700 pt-5 pb-4 mt-1 px-2 focus:outline-none" 
