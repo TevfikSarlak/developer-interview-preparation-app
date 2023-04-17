@@ -7,13 +7,6 @@ import Button from './components/Button';
 import { Footer } from './components/Footer';
 
 
-
-
-
-
-
-
-
 function App() {
 
   const [topicOfQuestions, setTopicOfQuestions] = useState('HTML')
