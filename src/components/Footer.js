@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     
       <div
-        className="flex flex-col md:flex-row justify-center md:justify-around items-center bg-darkBlue
+        className="flex flex-col sm:text-sm md:flex-row justify-center md:justify-around items-center bg-darkBlue
                         mx-auto mt-96 mb-0 pb-8 md:text-left"
       >
         <div className=" md:ml-4 space-x-2 py-8 space-y-4">
@@ -58,7 +58,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="space-y-2 font-mont text-white ">
+        <div className="space-y-2 font-mont text-white text-xs md:text-base">
            <p>&copy; 2023 Tevfik Şarlak. All rights reserved.</p>
            <p>You can reach out to me on Social Media or via email </p>
            <p className="mb-4">Your Feedback is invaluable for me </p>
