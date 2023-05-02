@@ -2,7 +2,7 @@
 
 [www.practodev.vercel.app](https://practodev.vercel.app/)
 
-The Developer Interview Preparation App is a web application designed to help aspiring developers prepare for their interviews by providing questions and resources related to ReactJS and mixed questions. The app allows users to choose between classical question and answer format or multiple choice questions, and also allows them to select the number of questions they want to attempt.
+The Developer Interview Preparation App is a web application designed to help aspiring developers prepare for their interviews by providing questions and resources related to HTML, CSS, JavaScript, and ReactJS questions. The app allows users to choose between classical question and  multiple choice questions, and also allows them to select the number of questions they want to attempt.
 
 ## Features
 
